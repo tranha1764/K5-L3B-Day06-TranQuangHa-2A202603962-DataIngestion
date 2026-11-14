@@ -8,3 +8,7 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# Bỏ qua cấu hình IDE và file sách gốc dung lượng lớn
+.idea/
+starter/data/college-success.pdf

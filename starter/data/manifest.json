@@ -1,0 +1,425 @@
+{
+  "source_id": "openstax_college_success_ch1_ch2",
+  "title": "College Success - Chapters 1 & 2",
+  "author": "Amy Baldwin et al.",
+  "publisher": "OpenStax, Rice University",
+  "source_path_or_url": "https://openstax.org/details/books/college-success",
+  "license_or_permission": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "accessed_at": "2026-11-14",
+  "total_content_pages": 58,
+  "page_selection_rule": "Physical pages 17 to 74 covering Chapter 1 (Exploring College) and Chapter 2 (Knowing Yourself as a Learner). Covers, table of contents, and preface excluded.",
+  "filter_fields": {
+    "chapter": [
+      "Chapter 1",
+      "Chapter 2"
+    ]
+  },
+  "pages": [
+    {
+      "corpus_page": 1,
+      "original_pdf_page": 17,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 1548
+    },
+    {
+      "corpus_page": 2,
+      "original_pdf_page": 18,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 3866
+    },
+    {
+      "corpus_page": 3,
+      "original_pdf_page": 19,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 1818
+    },
+    {
+      "corpus_page": 4,
+      "original_pdf_page": 20,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 1952
+    },
+    {
+      "corpus_page": 5,
+      "original_pdf_page": 21,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2840
+    },
+    {
+      "corpus_page": 6,
+      "original_pdf_page": 22,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2753
+    },
+    {
+      "corpus_page": 7,
+      "original_pdf_page": 23,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 4042
+    },
+    {
+      "corpus_page": 8,
+      "original_pdf_page": 24,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 3937
+    },
+    {
+      "corpus_page": 9,
+      "original_pdf_page": 25,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 1622
+    },
+    {
+      "corpus_page": 10,
+      "original_pdf_page": 26,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 1788
+    },
+    {
+      "corpus_page": 11,
+      "original_pdf_page": 27,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 509
+    },
+    {
+      "corpus_page": 12,
+      "original_pdf_page": 28,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2675
+    },
+    {
+      "corpus_page": 13,
+      "original_pdf_page": 29,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2881
+    },
+    {
+      "corpus_page": 14,
+      "original_pdf_page": 30,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2510
+    },
+    {
+      "corpus_page": 15,
+      "original_pdf_page": 31,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2558
+    },
+    {
+      "corpus_page": 16,
+      "original_pdf_page": 32,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2946
+    },
+    {
+      "corpus_page": 17,
+      "original_pdf_page": 33,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2355
+    },
+    {
+      "corpus_page": 18,
+      "original_pdf_page": 34,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2318
+    },
+    {
+      "corpus_page": 19,
+      "original_pdf_page": 35,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 3796
+    },
+    {
+      "corpus_page": 20,
+      "original_pdf_page": 36,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2860
+    },
+    {
+      "corpus_page": 21,
+      "original_pdf_page": 37,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2980
+    },
+    {
+      "corpus_page": 22,
+      "original_pdf_page": 38,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 2983
+    },
+    {
+      "corpus_page": 23,
+      "original_pdf_page": 39,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 3241
+    },
+    {
+      "corpus_page": 24,
+      "original_pdf_page": 40,
+      "chapter": "Chapter 1",
+      "section_title": "Exploring College",
+      "char_count": 1886
+    },
+    {
+      "corpus_page": 25,
+      "original_pdf_page": 41,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 1407
+    },
+    {
+      "corpus_page": 26,
+      "original_pdf_page": 42,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 2829
+    },
+    {
+      "corpus_page": 27,
+      "original_pdf_page": 43,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 4462
+    },
+    {
+      "corpus_page": 28,
+      "original_pdf_page": 44,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 2410
+    },
+    {
+      "corpus_page": 29,
+      "original_pdf_page": 45,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 2803
+    },
+    {
+      "corpus_page": 30,
+      "original_pdf_page": 46,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 2404
+    },
+    {
+      "corpus_page": 31,
+      "original_pdf_page": 47,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 4334
+    },
+    {
+      "corpus_page": 32,
+      "original_pdf_page": 48,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3197
+    },
+    {
+      "corpus_page": 33,
+      "original_pdf_page": 49,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3910
+    },
+    {
+      "corpus_page": 34,
+      "original_pdf_page": 50,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3025
+    },
+    {
+      "corpus_page": 35,
+      "original_pdf_page": 51,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 2281
+    },
+    {
+      "corpus_page": 36,
+      "original_pdf_page": 52,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 2358
+    },
+    {
+      "corpus_page": 37,
+      "original_pdf_page": 53,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3380
+    },
+    {
+      "corpus_page": 38,
+      "original_pdf_page": 54,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3597
+    },
+    {
+      "corpus_page": 39,
+      "original_pdf_page": 55,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 2538
+    },
+    {
+      "corpus_page": 40,
+      "original_pdf_page": 56,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3556
+    },
+    {
+      "corpus_page": 41,
+      "original_pdf_page": 57,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 1957
+    },
+    {
+      "corpus_page": 42,
+      "original_pdf_page": 58,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 1063
+    },
+    {
+      "corpus_page": 43,
+      "original_pdf_page": 59,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 1095
+    },
+    {
+      "corpus_page": 44,
+      "original_pdf_page": 60,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 2434
+    },
+    {
+      "corpus_page": 45,
+      "original_pdf_page": 61,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 4618
+    },
+    {
+      "corpus_page": 46,
+      "original_pdf_page": 62,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3337
+    },
+    {
+      "corpus_page": 47,
+      "original_pdf_page": 63,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3392
+    },
+    {
+      "corpus_page": 48,
+      "original_pdf_page": 64,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3549
+    },
+    {
+      "corpus_page": 49,
+      "original_pdf_page": 65,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3650
+    },
+    {
+      "corpus_page": 50,
+      "original_pdf_page": 66,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3576
+    },
+    {
+      "corpus_page": 51,
+      "original_pdf_page": 67,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 4138
+    },
+    {
+      "corpus_page": 52,
+      "original_pdf_page": 68,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3515
+    },
+    {
+      "corpus_page": 53,
+      "original_pdf_page": 69,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 4237
+    },
+    {
+      "corpus_page": 54,
+      "original_pdf_page": 70,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 4164
+    },
+    {
+      "corpus_page": 55,
+      "original_pdf_page": 71,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 1766
+    },
+    {
+      "corpus_page": 56,
+      "original_pdf_page": 72,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3472
+    },
+    {
+      "corpus_page": 57,
+      "original_pdf_page": 73,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 3426
+    },
+    {
+      "corpus_page": 58,
+      "original_pdf_page": 74,
+      "chapter": "Chapter 2",
+      "section_title": "Knowing Yourself as a Learner",
+      "char_count": 2356
+    }
+  ]
+}
