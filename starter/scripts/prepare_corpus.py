@@ -1,7 +1,7 @@
 """
 Script trích xuất Chapter 1 & Chapter 2 từ OpenStax College Success
 và tự động tạo file manifest.json đạt chuẩn GUIDE.md và RUBRIC.md.
-Chỉ xuất file vào thư mục starter/data/.
+Xuất file duy nhất vào thư mục data/ ở cấp root theo cấu trúc SUBMISSION.md.
 """
 from pathlib import Path
 import json
@@ -9,11 +9,15 @@ from pypdf import PdfReader, PdfWriter
 
 
 def prepare_corpus():
+    root_dir = Path(__file__).resolve().parents[2]
     starter_dir = Path(__file__).resolve().parents[1]
     
     input_pdf = starter_dir / "data" / "college-success.pdf"
-    output_pdf = starter_dir / "data" / "corpus.pdf"
-    manifest_starter = starter_dir / "data" / "manifest.json"
+    if not input_pdf.exists():
+        input_pdf = root_dir / "data" / "college-success.pdf"
+
+    output_pdf = root_dir / "data" / "corpus.pdf"
+    manifest_path = root_dir / "data" / "manifest.json"
 
     if not input_pdf.exists():
         print(f"Lỗi: Không tìm thấy file {input_pdf}")
@@ -51,7 +55,7 @@ def prepare_corpus():
             "char_count": char_count
         })
 
-    # Lưu corpus.pdf chỉ vào starter/data/
+    # Lưu corpus.pdf duy nhất vào root data/
     with open(output_pdf, "wb") as f:
         writer.write(f)
 
@@ -72,12 +76,12 @@ def prepare_corpus():
         "pages": page_records
     }
 
-    # Ghi manifest chỉ vào starter/data/
-    with open(manifest_starter, "w", encoding="utf-8") as f:
+    # Ghi manifest duy nhất vào root data/
+    with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
 
     print(f"-> Đã tạo {output_pdf} thành công với {len(writer.pages)} trang nội dung hữu ích.")
-    print(f"-> Đã tạo {manifest_starter} ghi nhận đầy đủ bản quyền và số trang.")
+    print(f"-> Đã tạo {manifest_path} ghi nhận đầy đủ bản quyền và số trang.")
 
 
 if __name__ == "__main__":

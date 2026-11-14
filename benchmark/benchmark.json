@@ -1,0 +1,228 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What is the key advice given for navigating a challenging and unpredictable college life?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 2,
+    "evidence_quote": "The key is to be your own best advocate, because no one else is obliged to advocate on your behalf.",
+    "expected_answer": "To be your own best advocate because no one else is obliged to advocate on your behalf.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "In the Five Whys example, what degree does the student want to earn?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 5,
+    "evidence_quote": "I am in college to earn a degree in speech pathology.",
+    "expected_answer": "A degree in speech pathology.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 1, what is a key difference in preparation between college faculty and high school faculty?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 14,
+    "evidence_quote": "Most likely have not even taken a course in teaching as part of their graduate program",
+    "expected_answer": "College faculty most likely have not taken a course in teaching as part of their graduate program.",
+    "filter": {
+      "chapter": "Chapter 1"
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What are the six adjustment areas that college students experience in their transition?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 21,
+    "evidence_quote": "Academic, Cultural, Emotional, Financial, Intellectual, and Social",
+    "expected_answer": "Academic, Cultural, Emotional, Financial, Intellectual, and Social.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Who defined the personality trait known as 'grit' in psychology?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 31,
+    "evidence_quote": "This personality trait was defined as “grit” by the psychologist Angela Duckworth.",
+    "expected_answer": "Psychologist Angela Duckworth.",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 2, what four attributes make up Paul G. Stoltz's GRIT acronym?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 32,
+    "evidence_quote": "His acronym is Growth, Resilience, Instinct, and Tenacity.",
+    "expected_answer": "Growth, Resilience, Instinct, and Tenacity.",
+    "filter": {
+      "chapter": "Chapter 2"
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "How can having a grit partner affect a student's own determination in college?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 33,
+    "evidence_quote": "if your peers are all achievers with grit, you will tend to exhibit grit yourself.",
+    "expected_answer": "You will tend to exhibit grit yourself if surrounded by peers with grit.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "How can keeping a journal help combat negative thoughts and self-doubt?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 39,
+    "evidence_quote": "you can look over your journal to remind yourself of previous accomplishments in the face of adversity.",
+    "expected_answer": "It reminds you of previous accomplishments when facing adversity.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What is the primary benefit of adopting a growth mindset over a fixed mindset?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 44,
+    "evidence_quote": "looking at the differences outlined between a fixed and a growth mindset, you can see how each part of the growth mindset path would increase your probability of success",
+    "expected_answer": "It increases your probability of success when learning something new.",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "What legislation is highlighted for ensuring students with disabilities have equal access to higher education?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 48,
+    "evidence_quote": "Americans with Disabilities Act of 1990 (also known as ADA)",
+    "expected_answer": "Americans with Disabilities Act of 1990 (ADA).",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Why is visiting professors during their office hours strongly recommended?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 13,
+    "evidence_quote": "Specific hours professor is in the office to meet with students Visiting your professor during office hours",
+    "expected_answer": "To meet with professors directly outside of class.",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "What is the purpose of creating an environment where mistakes are considered safe?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 53,
+    "evidence_quote": "allow yourself the opportunity to make mistakes and learn from them before they become a part of your grades.",
+    "expected_answer": "To learn from errors before they negatively impact academic grades.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What intellectual moment in college is described as an 'a-ha!' experience?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 9,
+    "evidence_quote": "Experiencing an intellectual “a-ha!” moment is one of the most rewarding parts of college",
+    "expected_answer": "Intellectual adjustment where students experience an 'a-ha!' realization.",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What did the 2007 Duckworth study reveal about individuals with high grit?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 31,
+    "evidence_quote": "individuals with high grit were able to maintain motivation in learning tasks despite failures.",
+    "expected_answer": "They maintain motivation in learning tasks despite failures.",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What happens when a student relies solely on a single learning style?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 46,
+    "evidence_quote": "The problem with relying on learning styles comes from thinking that just one defines your needs.",
+    "expected_answer": "It mistakenly assumes that a single learning style defines all of one's learning needs.",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Where does most learning take place according to the college expectations guide?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 13,
+    "evidence_quote": "In college, most learning happens outside the classroom.",
+    "expected_answer": "Outside the classroom.",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "How do relationships typically change and expand for students during college?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 15,
+    "evidence_quote": "relationships will expand to peer networks—not friends, but near-age peers or situational peers",
+    "expected_answer": "They expand into peer networks including near-age and situational peers.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In Chapter 2, how is the Myers-Briggs assessment described in terms of its application?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 49,
+    "evidence_quote": "The Myers-Briggs system is one of the most popular personality tests, and it is relatively well known. It has seen a great deal of use in the business world with testing seminars and presentations on group dynamics.",
+    "expected_answer": "As a widely known personality test commonly used in the business world for testing seminars and group dynamics.",
+    "filter": {
+      "chapter": "Chapter 2"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "What did the former STEM student discover when switching to studying Russian?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 26,
+    "evidence_quote": "Since I am now a humanities student studying Russian, I learned the hard way that you cannot study for everything the same way.",
+    "expected_answer": "That you cannot study for everything using the exact same method.",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "What ancient philosophical obsession led to modern learning theories?",
+    "gold_source_id": "openstax_college_success_ch1_ch2",
+    "gold_page": 27,
+    "evidence_quote": "We humans have been obsessed with how we learn and understand things since ancient times.",
+    "expected_answer": "The human obsession since ancient times with how we acquire and understand new knowledge.",
+    "filter": null
+  }
+]
