@@ -1,0 +1,1088 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What is the key advice given for navigating a challenging and unpredictable college life?",
+    "expected_answer": "To be your own best advocate because no one else is obliged to advocate on your behalf.",
+    "gold_page": 2,
+    "evidence_quote": "The key is to be your own best advocate, because no one else is obliged to advocate on your behalf.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p20_fix_00",
+        "page": 20,
+        "score": 0.6225,
+        "text": "seem overwhelming, but if you plan ahead and use what you learn from this chapter and the rest of the\ncourse, you will be able to get through it more easily.\nDon’t Do It Alone\nThink about our earlier descriptions of two students, Reginald and Madison. What if they found that the first\nfew weeks were a little harder than they had anticipated? Should they have given up and dropped out? Or\nshould they have talked to someone about their struggles? Here is a secret about college success that not\nmany",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2803
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p02_fix_00",
+        "page": 2,
+        "score": 0.6116,
+        "text": "until years later, I used to dream of a stress-free college life. The reality is, college can be a meaningful\nplace, but it can also be challenging and unpredictable. The key is to be your own best advocate, because\nno one else is obliged to advocate on your behalf.\nWhen I began my community college studies, I knew what I wanted to do. Cybersecurity was my passion,\nbut I had no understanding of how credits transfer over to a 4-year university. This came to haunt me later,\nafter I navigated the c",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 3803
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p24_fix_02",
+        "page": 24,
+        "score": 0.5727,
+        "text": "college and have clear goals that I want to achieve.\n3. Most of the time, I take responsibility for my learning new and challenging concepts.\n4. I feel comfortable working with faculty, advisors, and classmates to accomplish my goals.\nWhere do you go from here?\nMaking the transition into college smoother for you can have long-term benefits. What have you learned\nabout in this chapter that you want to know more about that could help you? Choose topics from the list below\nor create your own, and",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 1859
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "In the Five Whys example, what degree does the student want to earn?",
+    "expected_answer": "A degree in speech pathology.",
+    "gold_page": 5,
+    "evidence_quote": "I am in college to earn a degree in speech pathology.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p05_fix_00",
+        "page": 5,
+        "score": 0.6157,
+        "text": "The Five Whys in Action\nWhy are you in college? I am in college to earn a degree in speech pathology.\nWhy do you want to earn a degree in speech\npathology?\nI want to be able to help people who have trouble\nspeaking.\nWhy do you want to help people who have trouble\nspeaking?\nI believe that people who have trouble speaking\ndeserve a life they want.\nWhy do you feel it is important that people who\nhave trouble speaking deserve a life they want?\nI feel they often have needs that are overlooked and\ndo",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2792
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p04_fix_01",
+        "page": 4,
+        "score": 0.586,
+        "text": "tting good grades and test scores in high school and earning\nmoney to pay for tuition and fees and other expenses. Now you have more at stake and a clearer path to\nachieving your goals, but you still need to be able to answer the question.\nTo help answer this question, consider the following questioning technique called “The Five Whys” that was\noriginally created by Sakichi Toyoda, a Japanese inventor, whose strategy was used by the Toyota Motor\nCompany to find the underlying cause of a problem.",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 1927
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p04_fix_02",
+        "page": 4,
+        "score": 0.5499,
+        "text": "Company to find the underlying cause of a problem. While your decision to go to college is not a problem, the\nexercise is helpful to uncover your underlying purpose for enrolling in college.\nThe process starts with a “Why” question that you want to know the answer to. Then, the next four “Why”\nquestions use a portion of the previous answer to help you dig further into the answer to the original\nquestion. Here is an example of “The Five Whys,” with the first question as “Why are you in college?”",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 1927
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 1, what is a key difference in preparation between college faculty and high school faculty?",
+    "expected_answer": "College faculty most likely have not taken a course in teaching as part of their graduate program.",
+    "gold_page": 14,
+    "evidence_quote": "Most likely have not even taken a course in teaching as part of their graduate program",
+    "filter": {
+      "chapter": "Chapter 1"
+    },
+    "filter_compliant": true,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p14_fix_00",
+        "page": 14,
+        "score": 0.7338,
+        "text": "Differences between High School and College Faculty\nHigh School Faculty College Faculty\nOften have degrees or certifications in\nteaching in addition to degrees in subject\nmatter\nMost likely have not even taken a course in teaching as part\nof their graduate program\nResponsibilities include maximizing\nstudent learning and progress in a wide\narray of areas\nResponsibilities include providing students with content and\nan assessment of their mastery of the content\nAre available before or after school",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2467
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p13_fix_06",
+        "page": 13,
+        "score": 0.6854,
+        "text": "t a few differences between high\nschool teachers and college professors.\nACTIVITY\n1.3 • College Culture and Expectations 19",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2823
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p13_fix_05",
+        "page": 13,
+        "score": 0.6395,
+        "text": "y also conduct research, mentor graduate students,\nwrite and review research articles, serve on and lead campus committees, serve in regional and national\norganizations in their disciplines, apply for and administer grants, advise students in their major, and serve as\nsponsors for student organizations. You can be assured that their days are far from routine. See the Table on\nDifferences between High School Teachers and College Professors for just a few differences between high\nschool teachers a",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2823
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What are the six adjustment areas that college students experience in their transition?",
+    "expected_answer": "Academic, Cultural, Emotional, Financial, Intellectual, and Social.",
+    "gold_page": 21,
+    "evidence_quote": "Academic, Cultural, Emotional, Financial, Intellectual, and Social",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p09_fix_02",
+        "page": 9,
+        "score": 0.8152,
+        "text": "le Six Areas of Adjustment for First-Year College Students provides a succinct definition for each of the\nareas as well as examples of how you can demonstrate that you have adjusted. Think about what you have\ndone so far to navigate these transitions in addition to other things you can do to make your college\nexperience a successful one.\nFigure 1.4 Six Areas of Adjustment for First-Year College Students Based on work by Laurie Hazard, Ed.D., and Stephanie Carter,\nM.A.\n“Experiencing an intellectu",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 1600
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p08_fix_04",
+        "page": 8,
+        "score": 0.7307,
+        "text": "djustment areas that first-year college students experience:\nacademic, cultural, emotional, financial, intellectual, and social. Of course, you won’t go through these\nadjustments all at once or even in just the first year. Some will take time, while others may not even feel like\nmuch of a transition. Let’s look at them in brief as a way of preparing for the road ahead:\n• Academic adjustment. No surprises here. You will most likely—depending on your own academic\nbackground—be faced with the incre",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 3889
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p09_fix_01",
+        "page": 9,
+        "score": 0.7275,
+        "text": "Social adjustment. A new place often equals new people. But in college, those new relationships can have\neven more meaning. Getting to know professors not only can help you learn more in your classes, but it\ncan also help you figure out what career pathway you want to take and how to get desired internships and\njobs. Learning to reduce conflicts during group work or when living with others helps build essential\nworkplace and life skills.\nThe table Six Areas of Adjustment for First-Year College",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 1600
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Who defined the personality trait known as 'grit' in psychology?",
+    "expected_answer": "Psychologist Angela Duckworth.",
+    "gold_page": 31,
+    "evidence_quote": "This personality trait was defined as “grit” by the psychologist Angela Duckworth.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p31_fix_00",
+        "page": 31,
+        "score": 0.7822,
+        "text": "This personality trait was defined as “grit” by the psychologist Angela Duckworth.1 In a 2007 study Duckworth\nand colleagues found that individuals with high grit were able to maintain motivation in learning tasks despite\nfailures. The study examined a cross section of learning environments, such as GPA scores in Ivy League\nuniversities, dropout rates at West Point, rankings in the National Spelling Bee, and general educational\nattainment for adults. What the results showed was that grit and per",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4285
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p31_fix_07",
+        "page": 31,
+        "score": 0.6977,
+        "text": "ind.\nKeeping Grit in Mind: Grit to GRIT\nThe concept of grit has been taken beyond the original studies of successful learning. While the concept of grit\nas a personality trait was originally recognized as something positive in all areas of activity, encouraging grit\nbecame very popular in education circles as a way to help students become more successful. In fact, many of\nthose that were first introduced to grit through education have begun applying it to business, professional\ndevelopment, and",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4285
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p31_fix_01",
+        "page": 31,
+        "score": 0.6631,
+        "text": "lts. What the results showed was that grit and perseverance were better predictors of\nacademic success and achievement than talent or IQ.\nApplying Grit\nThe concept of grit is an easy one to dismiss as something taken for granted. In our culture, we have a number\nof sayings and aphorisms that capture the essence of grit: “If at first you do not succeed, try, try again,” or the\nfamous quote by Thomas Edison: “Genius is one percent inspiration, ninety-nine percent perspiration.”\nThe problem is we a",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4285
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 2, what four attributes make up Paul G. Stoltz's GRIT acronym?",
+    "expected_answer": "Growth, Resilience, Instinct, and Tenacity.",
+    "gold_page": 32,
+    "evidence_quote": "His acronym is Growth, Resilience, Instinct, and Tenacity.",
+    "filter": {
+      "chapter": "Chapter 2"
+    },
+    "filter_compliant": true,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p32_fix_00",
+        "page": 32,
+        "score": 0.8284,
+        "text": "The New York Times best-selling author Paul G. Stoltz has taken grit and turned it into an acronym (GRIT) to\nhelp people remember and use the attributes of a grit mindset.3 His acronym is Growth, Resilience, Instinct,\nand Tenacity. Each of these elements is explained in the table below.\nGrowth Your propensity to seek and consider new ideas, additional alternatives, different approaches, and fresh perspectives\nResilience Your capacity to respond constructively and ideally make use of all kinds of",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3156
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p32_fix_01",
+        "page": 32,
+        "score": 0.7181,
+        "text": "onstructively and ideally make use of all kinds of adversity\nInstinct Your gut-level capacity to pursue the right goals in the best and smartest ways\nTenacity The degree to which you persist, commit to, stick with, and go after whatever you choose to achieve\nTable 2.2 The GRIT acronym as outlined by Paul G. Stoltz\nThere is one other thing to keep in mind when it comes to applying grit (or GRIT) to college success. The same\nsort of persevering approach can not only be used for individual learning",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3156
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p32_fix_06",
+        "page": 32,
+        "score": 0.6442,
+        "text": "t all.\n5. Surround yourself with gritty people.\nPersistence and tenacity tend to rub off on others, and the opposite does as well. As social creatures we often\nadopt the behaviors we find in the groups we hang out with. If you are surrounded by people that quit early,\n3 Stoltz, Paul G. (2014). “GRIT The New Science of What It Takes To Persevere, Flourish, Succeed”. ClimbStrong Press\n38 2 • The Truth About Learning Styles\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3156
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "How can having a grit partner affect a student's own determination in college?",
+    "expected_answer": "You will tend to exhibit grit yourself if surrounded by peers with grit.",
+    "gold_page": 33,
+    "evidence_quote": "if your peers are all achievers with grit, you will tend to exhibit grit yourself.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p33_fix_03",
+        "page": 33,
+        "score": 0.7876,
+        "text": "ramatically increased their grit. It did not\nmatter if the person was another student, an instructor, or someone else. What did matter is that they felt a\nstrong motivation to keep working, even when their college experience was at its most difficult. It has been\nsurmised that from a psychological perspective, the extra grit comes from not wanting to disappoint the\nperson they have connected with. Regardless of the reason, the data show that having a grit partner is one\nof the most effective way",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3864
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p33_fix_04",
+        "page": 33,
+        "score": 0.7661,
+        "text": "ng a grit partner is one\nof the most effective ways to statistically increase your chances of graduation.\nA grit partner does not have to be a formal relationship. Your partner can simply be a classmate—someone\nthat you can talk with. It can be an instructor you admire or someone else that you establish a connection\nwith. It can even be a family member who will encourage you—someone you do not want to disappoint.\nWhat you are looking for is someone who will help motivate you, either by their exa",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3864
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p33_fix_00",
+        "page": 33,
+        "score": 0.7265,
+        "text": "before achieving their goals, you may find it acceptable to give up early as well. On the other hand, if your\npeers are all achievers with grit, you will tend to exhibit grit yourself.\nGet a Grit Partner\nIt is an unfortunate statistic that far too many students who begin college never complete their degree.\nOver the years a tremendous amount of research has gone into why some students succeed while others\ndo not. After reading about grit, you will probably not be surprised to learn that the rese",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3864
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "How can keeping a journal help combat negative thoughts and self-doubt?",
+    "expected_answer": "It reminds you of previous accomplishments when facing adversity.",
+    "gold_page": 39,
+    "evidence_quote": "you can look over your journal to remind yourself of previous accomplishments in the face of adversity.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p38_fix_07",
+        "page": 38,
+        "score": 0.595,
+        "text": "r memories by keeping\na journal. Just as in a diary, the idea is to keep a flowing record of the positive things that happen, the\nlessons you learned from instances that were “less than successful,” and all accomplishments you make\ntoward learning. In your journal you can write or paste anything that you appreciated or that has positive\n44 2 • The Truth About Learning Styles\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3559
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p39_fix_00",
+        "page": 39,
+        "score": 0.5725,
+        "text": "outcomes. Whenever you are not feeling up to a challenge or when negative bias is starting to wear on\nyou, you can look over your journal to remind yourself of previous accomplishments in the face of\nadversity.\nBuilding the Foundation\nIn this section you read about three major factors that contribute to your motivation as a learner: grit and\nperseverance, your own motivations for learning (UGT), and the pitfalls of negative bias. Now it is time to do\na little self-analysis and reflection.\nWhich",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 2502
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p38_fix_06",
+        "page": 38,
+        "score": 0.5668,
+        "text": "eatly improve the assignment for a much better final grade. In either case, accurate feedback is what\nyou really want most, and both outcomes are positive for you.\n• Keep a gratitude and accomplishment journal. Again, the tendency to recall and overemphasize the\nnegative instances while ignoring or forgetting about the positive outcomes is the nature of negative bias.\nSometimes we need a little help remembering the positives, and we can prompt our memories by keeping\na journal. Just as in a diar",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3559
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What is the primary benefit of adopting a growth mindset over a fixed mindset?",
+    "expected_answer": "It increases your probability of success when learning something new.",
+    "gold_page": 44,
+    "evidence_quote": "looking at the differences outlined between a fixed and a growth mindset, you can see how each part of the growth mindset path would increase your probability of success",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p44_fix_00",
+        "page": 44,
+        "score": 0.6805,
+        "text": "something new, you greatly improve your ability to learn. At first, this may seem like the sort of feel-good\nadvice we often encounter in social media posts or quotes that are intended to inspire or motivate us (e.g.,\nbelieve in yourself!), but in looking at the differences outlined between a fixed and a growth mindset, you can\nsee how each part of the growth mindset path would increase your probability of success when it came to\nlearning.\nVery few people have a strict fixed or growth mindset al",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 2398
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p43_fix_00",
+        "page": 43,
+        "score": 0.6572,
+        "text": "Figure 2.11 The differences between fixed and growth mindset are clear when aligned to key elements of learning and personality.\n(Credit: Based on work by Dr. Carol Dweck)\nThe Growth Mindset and Lessons About Failing\nSomething you may have noticed is that a growth mindset would tend to give a learner grit and persistence. If\nyou had learning as your major goal, you would normally keep trying to attain that goal even if it took you\nmultiple attempts. Not only that, but if you learned a little bit",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 1079
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p43_fix_02",
+        "page": 43,
+        "score": 0.6485,
+        "text": "es.\nImproving Your Ability to Learn\nAs strange as it may seem, research into fixed vs. growth mindsets has shown that if you believe you can learn\n2.3 • It's All in the Mindset 49",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 1079
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "What legislation is highlighted for ensuring students with disabilities have equal access to higher education?",
+    "expected_answer": "Americans with Disabilities Act of 1990 (ADA).",
+    "gold_page": 48,
+    "evidence_quote": "Americans with Disabilities Act of 1990 (also known as ADA)",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p48_fix_00",
+        "page": 48,
+        "score": 0.6625,
+        "text": "Disabilities Act of 1990 (also known as ADA). Both of these acts have been driving forces in making certain that\nstudents with disabilities have equal access to higher education, and they have been instrumental in helping\neducators looking for new ways and resources to provide services that do just that.\nWhat follows is a list of services that schools commonly provide to help students with disabilities. These are\noften referred to as ADA accommodations and are named after the American with Disab",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3504
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p47_fix_05",
+        "page": 47,
+        "score": 0.6564,
+        "text": "ources that\ncan make school attendance and academic success possible.\nDue to this increased support and advocacy, colleges have seen an increase of students with disabilities.\nAccording to the National Center for Education Statistics, in 2012, 11.1 percent of the total undergraduate\npopulation in the United States was made up of people with disabilities.9\nThe Legal Rights of Students with Disabilities\nSection 504 of the Rehabilitation Act of 1973 protects students “with a physical or mental impa",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3347
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p47_fix_06",
+        "page": 47,
+        "score": 0.5628,
+        "text": "protects students “with a physical or mental impairment which\nsubstantially limits one or more major life activities.”10 Learning definitely falls within the definition of major\nlife activities.\nIn addition to Section 504, another set of laws that greatly help learners with disabilities is the Americans with\nACTIVITY\n9 U.S. Department of Education, National Center for Education Statistics. (2019). Digest of Education Statistics, 2017 (2018-070),\nChapter 3.\n10 U.S. Department of Education. Prote",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3347
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Why is visiting professors during their office hours strongly recommended?",
+    "expected_answer": "To meet with professors directly outside of class.",
+    "gold_page": 13,
+    "evidence_quote": "Specific hours professor is in the office to meet with students Visiting your professor during office hours",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p13_fix_00",
+        "page": 13,
+        "score": 0.4813,
+        "text": "Term What It Means Why You Need to Know\nLearning The process of acquiring knowledge\nIn college, most learning happens outside the classroom.\nYour professor will only cover the main ideas or the most\nchallenging material in class. The rest of the learning will\nhappen on your own.\nOffice\nhours\nSpecific hours professor is\nin the office to meet with\nstudents\nVisiting your professor during office hours is a good way to\nget questions answered and to build rapport.\nPlagiarism\nUsing someone’s words,\nima",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2823
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p12_fix_02",
+        "page": 12,
+        "score": 0.4675,
+        "text": "nstance, “office hours.” If you are\nnot in college, you would think that it means the hours of a day that an office is open. If it is your dentist’s\noffice, it may mean Monday through Friday from 8 a.m. to 5 p.m. In college, “office hours” can refer to the\nspecific hours a professor is in her office to meet with students, and those hours may be only a few each day:\nfor example, Mondays and Wednesdays from 1 p.m. until 3 p.m.\n“Syllabus” is another word that you may not have encountered, but it is",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2627
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p15_fix_01",
+        "page": 15,
+        "score": 0.4607,
+        "text": "our studies. These relationships are\nimportant because they will allow you to expand your network, especially as it relates to your career. As stated\nearlier, developing relationships with faculty can provide you with more than just the benefits of a mentor.\nFaculty often review applications for on-campus jobs or university scholarships and awards; they also have\nconnections with graduate programs, companies, and organizations. They may recommend you to colleagues\nor former classmates for intern",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2497
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "What is the purpose of creating an environment where mistakes are considered safe?",
+    "expected_answer": "To learn from errors before they negatively impact academic grades.",
+    "gold_page": 53,
+    "evidence_quote": "allow yourself the opportunity to make mistakes and learn from them before they become a part of your grades.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p53_fix_00",
+        "page": 53,
+        "score": 0.7054,
+        "text": "Make Mistakes Safe\nCreate an environment for yourself where mistakes are safe and mistakes are expected as just another part of\nlearning. This practice ties back to the principles you learned in the section on grit and persistence. The key is\nto allow yourself the opportunity to make mistakes and learn from them before they become a part of your\ngrades. You can do this by creating your own learning activities that you design to do just that. An example of\nthis might be taking practice quizzes on",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4189
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p21_fix_03",
+        "page": 21,
+        "score": 0.4726,
+        "text": "everything.\n2. Worry about making a mistake. This concern often goes with imposter syndrome. Students who worry\nabout making a mistake don’t like to answer questions in class, volunteer for a challenging assignment,\nand even ask for help from others. Instead of avoiding situations where you may fail, embrace the process\nof learning, which includes—is even dependent on—making mistakes. The more you practice courage in\nthese situations and focus on what you are going to learn from failing, the mor",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2945
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p53_fix_02",
+        "page": 53,
+        "score": 0.4509,
+        "text": "d to learn the main concepts of the subject, and answering the questions on your partner’s quiz\nmight help you identify areas where you need more knowledge.\nThe main idea with this sort of practice is that you are creating a safe environment where you can make\nmistakes and learn from them before those mistakes can negatively impact your success in the course. Better\nto make mistakes on a practice run than on any kind of assignment or exam that can heavily influence your\nfinal grade in a course.",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4189
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What intellectual moment in college is described as an 'a-ha!' experience?",
+    "expected_answer": "Intellectual adjustment where students experience an 'a-ha!' realization.",
+    "gold_page": 9,
+    "evidence_quote": "Experiencing an intellectual “a-ha!” moment is one of the most rewarding parts of college",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p09_fix_03",
+        "page": 9,
+        "score": 0.6814,
+        "text": "Stephanie Carter,\nM.A.\n“Experiencing an intellectual ‘a-ha!’ moment is one of the most rewarding parts of college, right\nup there with moving across the graduation stage with a degree in hand.”\n1.2 • The First Year of College Will Be an Experience 15",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 1600
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p09_fix_00",
+        "page": 9,
+        "score": 0.6473,
+        "text": "• Intellectual adjustment. Experiencing an intellectual “a-ha!” moment is one of the most rewarding parts\nof college, right up there with moving across the graduation stage with a degree in hand. Prepare to be\nsurprised when you stumble across a fascinating subject or find that a class discussion changes your life.\nAt the very least, through your academic work, you will learn to think differently about the world around\nyou and your place in it.\n• Social adjustment. A new place often equals new p",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 1600
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p22_fix_06",
+        "page": 22,
+        "score": 0.4434,
+        "text": "lore why you are in college or, more simply, what your purpose\nis. This course—and this book—will help you continue to refine your answer and create a map for your journey\nGET CONNECTED\n28 1 • Exploring College\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2942
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What did the 2007 Duckworth study reveal about individuals with high grit?",
+    "expected_answer": "They maintain motivation in learning tasks despite failures.",
+    "gold_page": 31,
+    "evidence_quote": "individuals with high grit were able to maintain motivation in learning tasks despite failures.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p31_fix_00",
+        "page": 31,
+        "score": 0.7897,
+        "text": "This personality trait was defined as “grit” by the psychologist Angela Duckworth.1 In a 2007 study Duckworth\nand colleagues found that individuals with high grit were able to maintain motivation in learning tasks despite\nfailures. The study examined a cross section of learning environments, such as GPA scores in Ivy League\nuniversities, dropout rates at West Point, rankings in the National Spelling Bee, and general educational\nattainment for adults. What the results showed was that grit and per",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4285
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p33_fix_03",
+        "page": 33,
+        "score": 0.6803,
+        "text": "ramatically increased their grit. It did not\nmatter if the person was another student, an instructor, or someone else. What did matter is that they felt a\nstrong motivation to keep working, even when their college experience was at its most difficult. It has been\nsurmised that from a psychological perspective, the extra grit comes from not wanting to disappoint the\nperson they have connected with. Regardless of the reason, the data show that having a grit partner is one\nof the most effective way",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3864
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p31_fix_08",
+        "page": 31,
+        "score": 0.678,
+        "text": "ing it to business, professional\ndevelopment, and their personal lives. Using a grit approach and working until the goal is achieved has been\nfound to be very effective in not only academics, but in many other areas.2\n1 Duckworth, A.L.; Peterson, C.; Matthews, M.D.; Kelly, D.R. (June 2007). \"Grit: Perseverance and passion for long-term\ngoals\". Journal of Personality and Social Psychology. 92 (6): 1087–1101. doi:10.1037/0022-3514.92.6.1087. PMID 17547490.\n2 Neisser, U.; Boodoo, G.; Bouchard, T.J.",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4285
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What happens when a student relies solely on a single learning style?",
+    "expected_answer": "It mistakenly assumes that a single learning style defines all of one's learning needs.",
+    "gold_page": 46,
+    "evidence_quote": "The problem with relying on learning styles comes from thinking that just one defines your needs.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p45_fix_08",
+        "page": 45,
+        "score": 0.6847,
+        "text": "limited to a single preferred learning style found themselves convinced\nthat they could not do as well with content that was presented in a way that differed from their style.8 For\nexample, a student that had identified as a visual learner might feel they were at a significant\ndisadvantage when listening to a lecture. Sometimes they even believed they had an even greater\nimpairment that prevented them from learning that way at all.\n• Some forms of learning are extremely difficult in activities",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4566
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p45_fix_07",
+        "page": 45,
+        "score": 0.5608,
+        "text": "ertain styles. For example, some prefer\nto learn in a more social environment that includes interaction with other learners. Reading can be difficult\nor restrictive as a group effort. Recognized learning styles beyond the original three include: social\n(preferring to learn as a part of group activity), solitary (preferring to learn alone or using self-study), or\nlogical (preferring to use logic, reasoning, etc.).\n• Students that thought they were limited to a single preferred learning style foun",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4566
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p45_fix_06",
+        "page": 45,
+        "score": 0.552,
+        "text": "t always prefer the same learning style all the time or for each situation. For example,\nsome learners might enjoy lectures during the day but prefer reading in the evenings. Or they may prefer\nlooking at diagrams when learning about mechanics but prefer reading for history topics.\n• There are more preferences involved in learning than just the three that became popular. These other\npreferences can become nearly impossible to make use of within certain styles. For example, some prefer\nto learn i",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4566
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Where does most learning take place according to the college expectations guide?",
+    "expected_answer": "Outside the classroom.",
+    "gold_page": 13,
+    "evidence_quote": "In college, most learning happens outside the classroom.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p15_fix_05",
+        "page": 15,
+        "score": 0.5859,
+        "text": "ponsible for\ntracking and monitoring\nyour learning progress.\nYou will need to practice\neffective learning strategies on\nyour own to ensure that you are\nmastering material at the\nappropriate pace.\nTable 1.2\n1.3 • College Culture and Expectations 21",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2497
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p15_fix_04",
+        "page": 15,
+        "score": 0.5475,
+        "text": "repared to\nearn high grades on all\nassignments because you may\nnot have the opportunity to\nmake up for lost ground.\nLearning\nLearning is often done in\nclass with the teacher\nguiding the process, offering\nmultiple ways to learn\nmaterial and frequent\nquizzes to ensure that\nlearning is occurring.\nLearning happens mostly\noutside of class and on\nyour own. Faculty are\nresponsible for assigning\nmaterial and covering the\nmost essential ideas; you\nare responsible for\ntracking and monitoring\nyour learning",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2497
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p52_fix_03",
+        "page": 52,
+        "score": 0.5333,
+        "text": "few learning theories, students\ncan take initiative and tailor their own learning so that it best benefits them and meets their main needs.\n“My seating choice significantly affects my learning. Sitting at a desk where the professor’s voice can be\nheard clearly helps me better understand the subject; and ensuring I have a clear view helps me take\nnotes. Therefore, sitting in the front of the classroom should be a “go to” strategy while attending college. It\nwill keep you focused and attentive thr",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3472
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "How do relationships typically change and expand for students during college?",
+    "expected_answer": "They expand into peer networks including near-age and situational peers.",
+    "gold_page": 15,
+    "evidence_quote": "relationships will expand to peer networks—not friends, but near-age peers or situational peers",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p15_fix_00",
+        "page": 15,
+        "score": 0.6802,
+        "text": "Figure 1.9 You and Your Relationships During College\nYour relationships with authority figures, family, and friends may change while you are in college, and at the\nvery least, your relationships will expand to peer networks—not friends, but near-age peers or situational\npeers (e.g., a first-year college student who is going back to school after being out for 20 years)—and to faculty\nand staff who may work alongside you, mentor you, or supervise your studies. These relationships are\nimportant bec",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2497
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p14_fix_05",
+        "page": 14,
+        "score": 0.6395,
+        "text": "sider the Figure on You and\nYour Relationships during College and think about how you will go about expanding your network while you\nare completing your degree.\n20 1 • Exploring College\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2467
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p14_fix_04",
+        "page": 14,
+        "score": 0.621,
+        "text": "ld with your professors will be some of the most important ones\nduring your college career.”\nFigure 1.8 You and Your Relationships Before College.\nIn college, your networks are going to expand in ways that will help you develop other aspects of yourself. As\ndescribed above, the relationships you will have with your professors will be some of the most important. But\nthey won’t be the only relationships you will be cultivating while in college. Consider the Figure on You and\nYour Relationships dur",
+        "metadata": {
+          "chapter": "Chapter 1",
+          "char_count": 2467
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In Chapter 2, how is the Myers-Briggs assessment described in terms of its application?",
+    "expected_answer": "As a widely known personality test commonly used in the business world for testing seminars and group dynamics.",
+    "gold_page": 49,
+    "evidence_quote": "The Myers-Briggs system is one of the most popular personality tests, and it is relatively well known. It has seen a great deal of use in the business world with testing seminars and presentations on group dynamics.",
+    "filter": {
+      "chapter": "Chapter 2"
+    },
+    "filter_compliant": true,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p49_fix_01",
+        "page": 49,
+        "score": 0.5937,
+        "text": "presentations on group dynamics. In\nfact, it is so popular that you may already be familiar with it and may have taken a test yourself to find out\nwhich of the 16 personality types you most favor.\nThe basic concept of Myers-Briggs is that there are four main traits. These traits are represented by two\nopposites, seen in the table below.\nExtroverted (E) vs. Introverted (I)\nIntuition (N) vs. Sensing (S)\nFeeling (F) vs. Thinking (T)\nJudging (J) vs. Perceiving (P)\nTable 2.5\nIt is thought that people",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3606
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p49_fix_00",
+        "page": 49,
+        "score": 0.5775,
+        "text": "characteristics can influence your learning. What knowing about personality traits and learning can do for you\nis to help you be aware and informed about how these affect you so you can deal with them directly.\nMyers-Briggs: Identifying Personality Traits and Styles\nThe Myers-Briggs system is one of the most popular personality tests, and it is relatively well known. It has\nseen a great deal of use in the business world with testing seminars and presentations on group dynamics. In\nfact, it is so",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3606
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p50_fix_02",
+        "page": 50,
+        "score": 0.5436,
+        "text": "le models, Myers-Briggs has received a good deal of criticism based on the artificial\nrestrictions and impairments it tends to suggest. Additionally, the claim that each person has a permanent and\nunwavering preference towards personality traits and learning styles has not turned out to be as concrete as it\nwas once thought. This has been demonstrated by people taking tests like the Myers-Briggs a few weeks apart\nand getting different results based on their personal preferences at that time.\nWha",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 3532
+        },
+        "is_gold_page": false,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "What did the former STEM student discover when switching to studying Russian?",
+    "expected_answer": "That you cannot study for everything using the exact same method.",
+    "gold_page": 26,
+    "evidence_quote": "Since I am now a humanities student studying Russian, I learned the hard way that you cannot study for everything the same way.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p26_fix_00",
+        "page": 26,
+        "score": 0.6102,
+        "text": "“When I came to college, I was a great STEM student. I knew the best ways to study for understanding the\ncomplexity of cellular mechanisms, but I had no idea how to study for classes where I would need to draw\nupon political theory or even how to memorize vocabulary words for language classes. Since I am now a\nhumanities student studying Russian, I learned the hard way that you cannot study for every class the\nsame way.\nFor my first Russian vocabulary quiz, I studied almost 14 hours because I co",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 2787
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p26_fix_02",
+        "page": 26,
+        "score": 0.4574,
+        "text": "hree days before each quiz by making flash cards the first\nday, studying the words from Russian to English the second day, and then studying the words from English\nto Russian by writing them down the third day. This new method is not one that works well for every class,\nbut that’s the beauty of it! I am a better learner because I have found ways to use a more diverse range of\nstudying tactics.”\n— Gabby Kennedy, Baylor University\nAbout This Chapter\nIn this chapter you will learn about the art of",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 2787
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p26_fix_01",
+        "page": 26,
+        "score": 0.4174,
+        "text": "ulary quiz, I studied almost 14 hours because I could not remember the words\nno matter how hard I tried. I was studying the Russian textbook the same way that I would study for a\nChemistry or Biology class: to simply read the chapter or vocabulary list over and over again. I knew that I\ncould not afford to be this time-inefficient for the entire semester, so I asked my professor for some tips on\nhow to study for her class. Now, I start studying three days before each quiz by making flash cards t",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 2787
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "What ancient philosophical obsession led to modern learning theories?",
+    "expected_answer": "The human obsession since ancient times with how we acquire and understand new knowledge.",
+    "gold_page": 27,
+    "evidence_quote": "We humans have been obsessed with how we learn and understand things since ancient times.",
+    "filter": null,
+    "filter_compliant": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "college_success_p27_fix_00",
+        "page": 27,
+        "score": 0.7036,
+        "text": "We humans have been obsessed with how we learn and understand things since ancient times. Because of\nthis, some of our earliest recorded philosophies have tried to explain how we take in information about the\nworld around us, how we acquire new knowledge, and even how we can be certain what we learn is correct.\nThis obsession has produced a large number of theories, ideas, and research into how we learn. There is a\ngreat deal of information out there on the subject—some of it is very good, and s",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4412
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "college_success_p27_fix_03",
+        "page": 27,
+        "score": 0.501,
+        "text": "only will you learn about current learning theories that are backed by\nneuroscience (something we did not have back in the days of birching), but you will also learn other learning\ntheories that did not turn out to be as effective or as thoroughly researched as once thought. That does not\nmean those ideas about learning are useless. Instead, in these cases you find ways to separate the valuable\nparts from the myths to make good learning choices.\n“Research has shown that one of the most influent",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4412
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "college_success_p27_fix_01",
+        "page": 27,
+        "score": 0.4999,
+        "text": "here on the subject—some of it is very good, and some of it, while well\nintentioned, has been a bit misguided.\nBecause of this obsession with learning, over the centuries, people have continually come up with new ideas\nabout how we acquire knowledge. The result has been that commonly held “facts” about education have been\nknown to change frequently. Often, what was once thought to be the newest, greatest discovery about\nlearning was debunked later on. One well-known example of this is that of co",
+        "metadata": {
+          "chapter": "Chapter 2",
+          "char_count": 4412
+        },
+        "is_gold_page": true,
+        "is_evidence_hit": false
+      }
+    ]
+  }
+]

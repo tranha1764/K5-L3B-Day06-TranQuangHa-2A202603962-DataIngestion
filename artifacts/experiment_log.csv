@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,chapter;page;source,none,text-embedding-3-small (768d),"Cửa sổ cố định 500 ký tự với overlap 50 giúp bao phủ ngữ cảnh liền kề và tăng mật độ từ khóa nhưng có thể cắt ngang câu gây phân mảnh ngữ nghĩa.",53.3% (8/15),80.0% (12/15),60.0% (3/5),80.0% (4/5),"390 chunks; thời gian embedding+upsert: 6.79s; chi phí ~$0.00004; Hit@1 dev đạt 53.3% nhưng Hit@3 kém hơn B"
+B,by_paragraph,600,0,chapter;page;source,none,text-embedding-3-small (768d),"Chunking theo đoạn văn bảo toàn trọn vẹn ngữ nghĩa của từng ý tưởng, giảm phân mảnh và tiết kiệm chi phí lưu trữ/embedding.",46.7% (7/15),86.7% (13/15),80.0% (4/5),80.0% (4/5),"325 chunks (tiết kiệm 16.7% lưu trữ); thời gian: 4.30s; Hit@3 dev đạt 86.7% và Hit@1 test vượt trội đạt 80.0%"
+C,by_paragraph,600,0,chapter;page;source,chapter,text-embedding-3-small (768d),"Kết hợp chunking theo đoạn văn với lọc metadata (chapter) để cô lập không gian tìm kiếm, loại bỏ hoàn toàn nhiễu từ các chương khác.",46.7% (7/15),86.7% (13/15),80.0% (4/5),80.0% (4/5),"325 chunks; tái sử dụng index B; thời gian truy xuất: 0.0s; filter compliance: 100% (2/2 dev, 1/1 test); cô lập triệt để cross-chapter noise"

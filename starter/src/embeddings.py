@@ -1,4 +1,4 @@
-"""Gemini Embedding Adapter using standard library HTTP client."""
+"""OpenAI Embedding Adapter using standard library HTTP client."""
 import json
 import os
 import time
@@ -21,67 +21,70 @@ class Embedder(Protocol):
 
 
 class MyEmbedder:
-    """Real embedder connecting to Gemini text-embedding-004."""
+    """Real embedder connecting to OpenAI API (text-embedding-3-small)."""
 
-    def __init__(self, model_name: str = "text-embedding-004") -> None:
-        self.model_name = model_name
-        self.dimensions = 768
-        self.api_key = os.getenv("GEMINI_API_KEY")
+    def __init__(self, model_name: str = "text-embedding-3-small", dimensions: int = 768) -> None:
+        env_model = os.getenv("EMBEDDING_MODEL")
+        self.model_name = env_model or model_name
+        self.dimensions = dimensions
+        self.api_key = os.getenv("OPENAI_API_KEY")
         if not self.api_key:
-            raise ValueError("GEMINI_API_KEY is missing from environment variables (.env).")
-        self.endpoint = (
-            f"https://generativelanguage.googleapis.com/v1beta/models/"
-            f"{self.model_name}:batchEmbedContents?key={self.api_key}"
-        )
+            raise ValueError("OPENAI_API_KEY is missing from environment variables (.env).")
+        self.endpoint = "https://api.openai.com/v1/embeddings"
 
-    def _call_batch_api(self, texts: list[str], task_type: str = "RETRIEVAL_DOCUMENT") -> list[list[float]]:
-        requests = []
-        for text in texts:
-            requests.append({
-                "model": f"models/{self.model_name}",
-                "content": {"parts": [{"text": text[:8000]}]},
-                "taskType": task_type
-            })
+    def _call_batch_api(self, texts: list[str]) -> list[list[float]]:
+        """Call OpenAI embeddings endpoint with dimensions parameter."""
+        payload = json.dumps({
+            "model": self.model_name,
+            "input": [t[:8000] for t in texts],
+            "dimensions": self.dimensions  # Chuẩn hóa về 768 chiều
+        }).encode("utf-8")
 
-        payload = json.dumps({"requests": requests}).encode("utf-8")
         req = urllib.request.Request(
             self.endpoint,
             data=payload,
-            headers={"Content-Type": "application/json"}
+            headers={
+                "Authorization": f"Bearer {self.api_key}",
+                "Content-Type": "application/json"
+            }
         )
 
         for attempt in range(5):
             try:
                 with urllib.request.urlopen(req, timeout=30) as response:
                     data = json.loads(response.read().decode("utf-8"))
-                    return [item["values"] for item in data["embeddings"]]
+                    items = sorted(data["data"], key=lambda x: x["index"])
+                    return [item["embedding"] for item in items]
             except urllib.error.HTTPError as e:
                 err_msg = e.read().decode("utf-8", errors="ignore")
-                if e.code in (429, 500, 503) and attempt < 4:
+                if e.code in (429, 500, 502, 503) and attempt < 4:
                     sleep_time = 2 ** attempt
-                    print(f"Gemini API rate limit/error {e.code}. Retrying in {sleep_time}s...")
+                    print(f"OpenAI API error {e.code}. Retrying in {sleep_time}s...")
                     time.sleep(sleep_time)
                 else:
-                    raise RuntimeError(f"Gemini API error {e.code}: {err_msg}")
+                    raise RuntimeError(f"OpenAI API error {e.code}: {err_msg}")
             except Exception as e:
                 if attempt < 4:
                     time.sleep(2)
                 else:
                     raise e
-        raise RuntimeError("Failed after 5 retries to embed contents.")
+        raise RuntimeError("Failed after 5 retries to embed contents via OpenAI.")
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        """Embed document texts in batches of 50."""
-        batch_size = 50
+        """Embed document texts in batches of 100."""
+        batch_size = 100
         all_embeddings: list[list[float]] = []
-        for i in range(0, len(texts), batch_size):
+        total = len(texts)
+
+        for i in range(0, total, batch_size):
             batch = texts[i:i + batch_size]
-            emb = self._call_batch_api(batch, task_type="RETRIEVAL_DOCUMENT")
+            emb = self._call_batch_api(batch)
             all_embeddings.extend(emb)
-            time.sleep(0.5)  # Tránh vượt rate limit
+            print(f"  -> Tiến độ embedding OpenAI: {len(all_embeddings)}/{total} chunks...")
+
         return all_embeddings
 
     def embed_query(self, question: str) -> list[float]:
-        """Embed single search query with RETRIEVAL_QUERY task type."""
-        emb = self._call_batch_api([question], task_type="RETRIEVAL_QUERY")
+        """Embed single search query."""
+        emb = self._call_batch_api([question])
         return emb[0]
